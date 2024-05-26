@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aptitude & Reasoning</title>
+  <link rel="stylesheet" href="style.css">
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    fetch('navigation.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navigation-container').innerHTML = data;
+      });
+  });
+</script>
+
+</head>
+<body>
+<div id="navigation-container"></div>
+  <header class="welcome">
+    <h1>Aptitude & Reasoning</h1>
+  </header>
+  <main class="content">
+    <h2>Aptitude & Reasoning Questions</h2>
+    <section class="data-structure-question">
+      <h3>Question 1: A sequence of numbers is given as 2, 6, 12, 20, 30, ___. What is the next number in the sequence?<br>
+A) 40<br>
+B) 42<br>
+C) 46<br>
+D) 56
+</h3>
+      <button class="show-answer">Show Answer</button>
+      <div class="answer" style="display: none;">
+        <p>The answer is:42<br>2 + 4 = 6<br>
+6 + 6 = 12<br>
+12 + 8 = 20<br>
+20 + 10 = 30<br>
+The increment is increasing by 2 each time:
+Next increment: 30 + 12 = 42
+</p>
+      </div>
+    </section>
+
+    <section class="data-structure-question">
+      <h3>Question 2: A car travels 150 kilometers in 3 hours. What is its average speed in kilometers per hour?<br>
+A) 45 km/h<br>
+B) 50 km/h<br>
+C) 55 km/h<br>
+D) 60 km/h
+</h3>
+      <button class="show-answer">Show Answer</button>
+      <div class="answer" style="display: none;">
+        <p>The answer is:50km/h<br> Average speed is calculated as:
+ Average speed=Total distance/Total time<br>
+So, 
+Average speed=150 km/3 hours=50 km/h<br></p>
+      </div>
+    </section>
+<section class="data-structure-question">
+      <h3>Question 3:What is 10% of 200?</h3>
+      <button class="show-answer">Show Answer</button>
+      <div class="answer" style="display: none;">
+        <p>The answer is:20<br>10% of 200=10/100×200=20</p>
+      </div>
+    </section>
+<section class="data-structure-question">
+      <h3>Question 4: The ratio of the number of apples to oranges in a basket is 3:2. If there are 60 apples, how many oranges are there?<br> 
+A) 20<br>
+B) 30<br>
+C) 40<br>
+D) 45
+</h3>
+      <button class="show-answer">Show Answer</button>
+      <div class="answer" style="display: none;">
+        <p>The answer is:40<br> Let the number of oranges be x<br>
+The ratio of apples to oranges is 3:2<br>
+60/x=3/2<br>
+Cross-multiplying gives: 3𝑥=120<br>
+x=40</p>
+      </div>
+    </section>
+<section class="data-structure-question">
+      <h3>Question 5:If today is Wednesday, what day of the week will it be 10 days from today?</h3>
+      <button class="show-answer">Show Answer</button>
+      <div class="answer" style="display: none;">
+        <p>The answer is:Saturday<br>To determine the day of the week 10 days from today (Wednesday), we can use the concept of modulo arithmetic. There are 7 days in a week, so we find the remainder when 10 is divided by 7.<br>
+10÷7=1 remainder 3
+This means 10 days from today is 3 days after Wednesday. Thus, if today is Wednesday, 10 days from today will be:<br>
+Wednesday+3 days=Saturday</p>
+
+      </div>
+    </section>
+
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
