@@ -1,0 +1,68 @@
+.design{
+  background-image: url("D:\Black and Blue Modern Gradient Zoom Virtual Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  color: black;  /* Dark Blue Text Color */
+  font-family: sans-serif;
+}
+
+.welcome {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #81cffe;  /* Light Blue Background */
+  color: #24305e;  /* Dark Blue Text Color */
+  padding: 20px;  
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content {
+  height: 50%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.subject-list {
+  list-style: disc;
+  padding: 0;
+  margin: 0;
+}
+
+.subject-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;  
+}
+
+.subject-list li ul {
+  margin-left: 20px;
+  margin-top: 5px;  
+}
+.canva-image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #81cffe;
+}
+.image-section {
+  margin: 20px 0;
+  text-align: center;
+}
